@@ -1,8 +1,10 @@
-import React from 'react'
+import "./styles.css"
 
 function Button() {
   return (
-    <div>Olá mundo</div>
+    <button className="button">
+      <h2>Confirm</h2>
+    </button>
   )
 }
 

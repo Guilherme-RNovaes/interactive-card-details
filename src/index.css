@@ -8,13 +8,17 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 :root {
-    --font-color: hsl(0, 0%, 100%);
+    --color-1: hsl(0, 0%, 100%);
+    --font-color: hsl(270, 3%, 87%);
     --font-color-2: hsl(278, 68%, 11%);
     --font-color-3: hsl(279, 6%, 55%);
-    --background-color: hsl(270, 3%, 87%);
     --linear-gradient: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%)); /* Active input */
     --input-error: hsl(0, 100%, 66%);
-
-
 }
