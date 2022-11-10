@@ -1,6 +1,6 @@
-import styles from "./styles.css"
+import "./styles.css"
 
-function index() {
+function Cards({ ccv, cardn, name, date }) {
   return (
     <div className="background-image">
         <div className="background-cardb">
@@ -18,4 +18,4 @@ function index() {
   )
 }
 
-export default index
+export default Cards

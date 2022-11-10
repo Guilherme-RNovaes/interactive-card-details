@@ -1,8 +1,9 @@
-import React from 'react'
-
-function Input() {
+import "./styles.css"
+function Input({ tp, classnum, placeh }) {
   return (
-    <div>Input</div>
+    <div>
+      <input type={tp} placeholder={placeh} exact className={`input-${classnum}`} />
+    </div>
   )
 }
 

@@ -13,11 +13,11 @@ function Home() {
       <section className="container">
         <div className="input-container">
           <p>cardholder name</p>
-          <Input />
+          <Input tp="text" placeh="e.g Your name here" classnum="1" />
         </div>
         <div className="input-container">
           <p>card number</p>
-          <Input />
+          <Input tp="number" placeh="e.g 1234 5678 9123 0000" classnum="1" />
         </div>
         <div className="input-container-2">
           <div className="input-container-date">
